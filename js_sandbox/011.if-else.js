@@ -96,3 +96,6 @@ if (age < 16 || age > 65) {
 } else {
   console.log(`you are registered`);
 }
+
+// TERNARY OPERATOR
+console.log(id === 100 ? "CORRECT" : "INCORRECT");
