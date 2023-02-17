@@ -33,13 +33,29 @@ for (let i = 0; i < 10; i++) {
 }
 
 //Looping through arrays using for loop
-const cars = ['Ford', 'Mustang', 'Nissan', 'Honda'];
+const cars = ['Ford', 'Mustang', 'Nissan', 'Honda', 'Toyota'];
 
 // for (let i = 0; i < cars.length; i++) {
 //   console.log(cars[i])
 // }
 
 //Looping through array using forEach
-cars.forEach((car) => {
-  console.log(car)
+//ForEach is similar to for loop. it takes a parameter which is a callback function and you perform your logic in its block. The forEach function takes three parameters one is the value, second is the index and third is the array itself
+cars.forEach((car, index, array) => {
+  // console.log(`${index}:${car}`)
 })
+
+//Using the array Map function 
+const users = [
+  { id: 1, name: 'Naqqash' },
+  { id: 2, name: 'Shahab' },
+  { id: 3, name: 'Bilal' },
+  { id: 4, name: 'Shahab' },
+  { id: 5, name: 'Misha' },
+]
+
+const ids = users.map((value, index) => {
+  return value.name
+})
+
+console.log(ids)
