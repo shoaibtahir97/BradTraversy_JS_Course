@@ -35,6 +35,11 @@ for (let i = 0; i < 10; i++) {
 //Looping through arrays using for loop
 const cars = ['Ford', 'Mustang', 'Nissan', 'Honda'];
 
-for (let i = 0; i < cars.length; i++) {
-  console.log(cars[i])
-}
+// for (let i = 0; i < cars.length; i++) {
+//   console.log(cars[i])
+// }
+
+//Looping through array using forEach
+cars.forEach((car) => {
+  console.log(car)
+})
