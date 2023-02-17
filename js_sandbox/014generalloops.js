@@ -26,8 +26,15 @@ for (let i = 0; i < 10; i++) {
 //Breaking out of the loop
 for (let i = 0; i < 10; i++) {
   if (i === 5) {
-    console.log('Loop braked at 5')
+    // console.log('Loop braked at 5')
     break;
   }
-  console.log('Number', i)
+  // console.log('Number', i)
+}
+
+//Looping through arrays using for loop
+const cars = ['Ford', 'Mustang', 'Nissan', 'Honda'];
+
+for (let i = 0; i < cars.length; i++) {
+  console.log(cars[i])
 }
