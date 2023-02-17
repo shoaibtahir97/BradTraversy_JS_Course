@@ -14,11 +14,20 @@ for (let i = 0; i < 10; i++) {
 }
 
 //Performing a Function on a specific iteration
-//The continue will move on the next iteration and not re-render the same element again. 
+//The continue will move on the next iteration and not re-render the same element again.  
 for (let i = 0; i < 10; i++) {
   if (i === 2) {
-    console.log('2 is my favorite number')
+    // console.log('2 is my favorite number')
     continue;
   }
-  console.log('number', i)
+  // console.log('number', i)
+}
+
+//Breaking out of the loop
+for (let i = 0; i < 10; i++) {
+  if (i === 5) {
+    console.log('Loop braked at 5')
+    break;
+  }
+  console.log('Number', i)
 }
