@@ -66,6 +66,7 @@ let todo = {
 
 console.log(todo.add());
 todo.update('Eloquient JavaScript');
+
 todo.delete = function(){
   console.log('Delete Todo');
 };
