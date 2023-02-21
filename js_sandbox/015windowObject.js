@@ -63,7 +63,7 @@ val = window.location.search; //Shows the query string
 val = window.history.length;
 
 //NAVIGATOR OBJECT
-//Navigator object deals with the browser itself, not with the location object 
-
+//Navigator object deals with the browser itself, not with the location object. Tells about the browser and its settings. 
+val = window.navigator;
 
 console.log(val)
