@@ -26,8 +26,44 @@ Window object has a lot to offer like localStorage, navigator object, fetch api,
 let val;
 
 
-//Find height and widthof window screen
+//Find height and width of window screen
 val = window.outerHeight;
 val = window.outerWidth;
+
+//Find Inner height and width 
+val = window.innerHeight;
+val = window.innerWidth;
+
+//Scroll Points
+val = window.scrollX;
+val = window.scrollY; //useful when using animations when user scrolls  
+
+//Location Object
+//Provides Network data about the website
+val = window.location;
+val = window.location.hostname;
+val = window.location.port;
+val = window.location.href;
+
+//Search
+val = window.location.search; //Shows the query string
+
+//Redirect
+//Do not use these objects globally. Call them on function call 
+// val = window.location.href = 'http://google.com'
+
+//Reload
+// val = window.location.reload;
+
+//History Object
+//Goes back to the page from where it came from 
+// val = window.history.go(-1);
+
+//Tells about the number of sites behind the current
+val = window.history.length;
+
+//NAVIGATOR OBJECT
+//Navigator object deals with the browser itself, not with the location object 
+
 
 console.log(val)
